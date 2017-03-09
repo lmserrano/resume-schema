@@ -520,6 +520,10 @@
             "format":"uri",
             "description": "e.g. http://www.computer.org/csdl/mags/co/1996/10/rx069-abs.html"
           },
+          "website": {
+            "type": "string",
+            "description": "(same as url) e.g. http://www.computer.org.example.com/csdl/mags/co/1996/10/rx069-abs.html"
+          },
           "roles":{
             "type":"array",
             "description": "Specify your role on this project or in company",

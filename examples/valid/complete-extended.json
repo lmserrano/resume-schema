@@ -3,6 +3,7 @@
     "name": "Richard Hendriks",
     "label": "Programmer",
     "image": "",
+    "picture": "",
     "email": "richard.hendriks@mail.com",
     "phone": "(912) 555-4321",
     "url": "http://richardhendricks.example.com",
@@ -33,6 +34,7 @@
       "description": "Awesome compression company",
       "position": "CEO/President",
       "url": "http://piedpiper.example.com",
+      "website": "http://piedpiper.example.com",
       "startDate": "2013-12-01",
       "endDate": "2014-12-01",
       "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
@@ -48,6 +50,7 @@
       "organization": "CoderDojo",
       "position": "Teacher",
       "url": "http://coderdojo.example.com/",
+      "website": "http://piedpiper.example.com",
       "startDate": "2012-01-01",
       "endDate": "2013-01-01",
       "summary": "Global movement of free coding clubs for young people.",
@@ -67,7 +70,8 @@
       "courses": [
         "DB1101 - Basic SQL",
         "CS2011 - Java Introduction"
-      ]
+      ],
+      "website": "http://piedpiper.example.com"
     }
   ],
   "awards": [
@@ -84,6 +88,7 @@
       "publisher": "Hooli",
       "releaseDate": "2014-10-01",
       "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+      "website": "http://piedpiper.example.com",
       "summary": "Innovative middle-out compression algorithm that changes the way we store data."
     }
   ],
@@ -104,6 +109,17 @@
         "Mpeg",
         "MP4",
         "GIF"
+      ]
+    }
+  ],
+  "other_skills": [
+    {
+      "name": "Cook",
+      "level": "Master",
+      "keywords": [
+        "Bakery",
+        "Seafood",
+        "Portuguese"
       ]
     }
   ],
@@ -128,6 +144,19 @@
       "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
     }
   ],
+  "certifications": [
+    {
+      "date": "2017-01-23",
+      "name": "Mastering Java in 10 easy steps",
+      "institution": "Google",
+      "author": {
+        "name": "Jack Sparrow",
+        "website": "https://www.google.com/"
+      },
+      "website": "http://www.creativecertificates.com/wp-content/uploads/2014/03/certificate-of-excellence.jpg",
+      "description": "Easy course for learning Java technologies in a progressive way"
+    }
+  ],
   "projects": [
     {
       "name": "Miss Direction",
@@ -143,6 +172,7 @@
       "startDate": "2016-08-24",
       "endDate": "2016-08-24",
       "url": "missdirection.example.com",
+      "website": "http://piedpiper.example.com",
       "roles": [
         "Team lead", "Designer"
       ],
