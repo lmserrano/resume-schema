@@ -14,6 +14,12 @@ To keep things simple, *JSON Resume tools are only expected to react to major ve
 
 * [0.0.0 - First official version](https://github.com/jsonresume/resume-schema/blob/0.0.0/schema.json)
 
+### Additional changes (of this fork)
+* 2017-03-08 - `certificates` added
+* 2017-03-08 - `other_skills` added
+* 2017-03-08 - `picture` added as valid, since some themes use it instead of `image`
+* 2017-03-08 - `website` added as valid, in multiple places where only `url` was, before
+
 ### Change log
 
 * 2014-07-30 - `languages` was added - [Dicussions](https://github.com/jsonresume/resume-schema/issues/34) - [Commit](https://github.com/jsonresume/resume-schema/commit/f02300e36ba076787d008928b29963c3ffce6121)
