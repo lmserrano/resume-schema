@@ -47,7 +47,7 @@ var validateFilesInDir = function (dir, t, callback) {
 
 test('Validates a valid resume', function (t) {
 
-  validateFilesInDir('examples/valid/', t, function (file, err, report) {
+  validateFilesInDir('../examples/valid/', t, function (file, err, report) {
     t.equal(err, null, file + ' - No formatting errors');
     t.equal(report && report.valid, true, file + ' - Passes JsonResume v1.0.0 specification - DRAFT.');
   });
@@ -57,7 +57,7 @@ test('Validates a valid resume', function (t) {
 
 test('Validates an invalid resume', function (t) {
 
-  validateFilesInDir('examples/invalid/', t, function (file, err) {
+  validateFilesInDir('../examples/invalid/', t, function (file, err) {
     t.ok(err, file + ' - Error is triggered by validation');
   });
 
